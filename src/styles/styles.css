@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  font-family:Arial;
+}
+
+.navbar{
+  background:#222;
+  color:white;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.navbar a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+.hero{
+  background:#eee;
+  padding:40px;
+  text-align:center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,200px);
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  border:1px solid #ddd;
+  padding:10px;
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+}
+
+.contact{
+  background:#fafafa;
+  padding:30px;
+  text-align:center;
+}
+.footer{
+  background:#222;
+  color:white;
+  padding:40px;
+  margin-top:40px;
+}
+
+.footer-content{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.footer h3,
+.footer h4{
+  margin-bottom:10px;
+}
+
+.footer p{
+  margin:5px 0;
+}
+
+.copyright{
+  text-align:center;
+  margin-top:20px;
+  font-size:14px;
+}
